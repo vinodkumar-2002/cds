@@ -69,3 +69,10 @@ entity Languages: cuid, managed {
     @title: 'Description'
     description: String(20);
 }
+
+entity hell : cuid, managed {
+    @title: 'Code'
+    code: String(3);
+    @title: 'Description'
+    description: String(50);
+}
